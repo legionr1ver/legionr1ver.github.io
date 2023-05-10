@@ -19743,9 +19743,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             storage = localStorage.getItem('pedidosNoSincronizados');
             _this.pedidosNoSincronizados = storage ? JSON.parse(storage) : [];
             _context.prev = 2;
-            fetch("campanias/1/articulos");
+            fetch("data/articulos");
             _context.next = 6;
-            return axios.get("campanias/1/articulos");
+            return axios.get("data/articulos");
           case 6:
             response = _context.sent;
             _this.articulosVigentes = response.data;
