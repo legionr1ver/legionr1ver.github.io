@@ -7,10 +7,13 @@
 
     <title>Test - offline</title>
 
+    <link rel="manifest" href="pedidos-web.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
-    <h1>Vamo lrpm</h1>
+    <div id="app"></div>
 </body>
 
 </html>
